@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.logo {
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16rem;
+}
+
+.center-image {
+  width: 300px;
+  height: auto;
+}
+
+
+
+nav {
+  display: flex-flow;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: end;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: pink;
+}
+
+li {
+  color: pink;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 700;
+}
+
+ul li a:visited {
+  color: pink;
+  list-style: none;
+}
+
+.link {
+  display: inline-block;
+  border-radius: 13px;
+  padding: 14px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  gap: 12px;
+  background-color: #fad54f;
+  text-decoration: none;
+  margin: 3rem;
+  color: black;
+}
+
+button {
+  border: 3px solid black;
+  border-radius: 13px;
+  padding: 14px;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  gap: 9px;
+  background-color: #fad54f;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 800;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+.center-image {
+  width: 500px;
+
+}
+
+}
